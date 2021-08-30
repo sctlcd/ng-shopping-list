@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    background-color: #eeeeee;
+}
+
+table {}
+
+tr:hover {
+    background-color: grey;
+    color: #fafafa
+}
+
+td {
+    width: 3rem;
+    font-size: 2rem;
+    border: 0.2rem solid grey;
+    text-align: center;
+    padding: 0.3rem 0.6rem;
+}
