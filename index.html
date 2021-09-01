@@ -14,7 +14,8 @@
     <hr>
 
     <h3 class="py-4">My shopping list</h3>
-    <table class="mb-4">
+    <h4 class="pb-4">How big my shopping is: <big>{{list.length}}</big> items</h4>
+    <table class="mb-5">
         <tr ng-repeat="item in list">
             <td>{{$index + 1}}</td>
             <td>{{item}}</td>
@@ -23,9 +24,9 @@
             </td>
         </tr>
     </table>
-    <hr>
+    <hr class="mb-0">
 
-    <input type="text" class="mt-2" ng-model="newItem">
+    <input type="text" class="mt-5" ng-model="newItem">
     <button class="btn btn-success" ng-click="addItem(newItem)"><span class="fw-bolder">Add</span></button>
 
 </body>
